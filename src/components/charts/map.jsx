@@ -10,7 +10,12 @@ const data = [
 class World extends React.Component {
   render() {
     return (
-      <div style={{ overflow: "hidden" }}>
+      <div
+        style={{
+          overflow: "hidden",
+          textAlign: "-webkit-center",
+        }}
+      >
         <Chart
           chartEvents={[
             {
@@ -31,8 +36,8 @@ class World extends React.Component {
             legend: "none",
           }}
           chartType="GeoChart"
-          keepAspectRatio={true}
-          height={300}
+          height={200}
+          width="100%"
           data={data}
         />
       </div>

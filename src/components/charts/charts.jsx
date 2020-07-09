@@ -17,7 +17,7 @@ function Charts() {
           <DonutChart />
         </Col>
         <Col xs={24} lg={8}>
-          <World />
+          <MapContainer />
         </Col>
       </Row>
     </>

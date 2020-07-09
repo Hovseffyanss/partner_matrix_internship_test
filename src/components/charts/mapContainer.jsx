@@ -1,8 +1,5 @@
 import React, { Component } from "react";
 import World from "./map";
-import MapList from "./list";
-
-import { Card } from "antd";
 
 class MapContainer extends Component {
   render() {
@@ -11,14 +8,19 @@ class MapContainer extends Component {
         style={{
           height: "300px",
           backgroundColor: "#2a2a2a",
-          backgroundColor: "green",
-          overflow: "scroll",
-          textAlign: "-webkit-center",
         }}
       >
-        <h2>Geographic Data</h2>
+        <p
+          style={{
+            color: "#d8d8d8",
+            fontSize: 18,
+            paddingTop: "18px",
+            paddingLeft: "18px",
+          }}
+        >
+          Geographic Data
+        </p>
         <World />
-        {/* <MapList /> */}
       </div>
     );
   }
