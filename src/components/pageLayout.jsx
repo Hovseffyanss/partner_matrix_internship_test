@@ -37,7 +37,6 @@ class PageLayout extends Component {
             style={{
               margin: "20px 16px",
               minHeight: 280,
-              backgroundColor: "purple",
             }}
           >
             <Stat />

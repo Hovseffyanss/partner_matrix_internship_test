@@ -8,17 +8,19 @@ import SignUpsTable from "./signUpsTable";
 function Tables() {
   return (
     <>
-      <Row>
-        <Col xs={24} lg={8}>
-          <TopAffiliatesTable />
-        </Col>
-        <Col xs={24} lg={8}>
-          <SignUpsTable />{" "}
-        </Col>{" "}
-        <Col xs={24} lg={8}>
-          <PendingCommissionsTable />
-        </Col>
-      </Row>
+      <div style={{ overflow: "scroll" }}>
+        <Row>
+          <Col xs={24} lg={8}>
+            <TopAffiliatesTable />
+          </Col>
+          <Col xs={24} lg={8}>
+            <SignUpsTable />{" "}
+          </Col>{" "}
+          <Col xs={24} lg={8}>
+            <PendingCommissionsTable />
+          </Col>
+        </Row>
+      </div>
     </>
   );
 }

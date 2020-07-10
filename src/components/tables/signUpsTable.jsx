@@ -111,7 +111,6 @@ class SignUpsTable extends Component {
     );
     return (
       <Table
-        className="tableTitle"
         pagination={false}
         dataSource={dataSource}
         columns={columns}
