@@ -3,113 +3,114 @@ import { Line } from "@ant-design/charts";
 
 const data = [
   {
-    week: "1",
+    week: "01.09.19-07.09.19",
     type: "Sign Ups",
     value: 40,
   },
   {
-    week: "1",
+    week: "01.09.19-07.09.19",
     type: "Page View",
     value: -35,
   },
   {
-    week: "1",
+    week: "01.09.19-07.09.19",
     type: "Clicks",
     value: 18,
   },
   {
-    week: "2",
+    week: "08.09.19-14.09.19",
     type: "Sign Ups",
     value: 50,
   },
   {
-    week: "2",
+    week: "08.09.19-14.09.19",
     type: "Page View",
     value: 25,
   },
   {
-    week: "2",
+    week: "08.09.19-14.09.19",
     type: "Clicks",
     value: 58,
   },
   {
-    week: "3",
+    week: "15.09.19-21.09.19",
     type: "Sign Ups",
     value: 0,
   },
   {
-    week: "3",
+    week: "15.09.19-21.09.19",
     type: "Page View",
     value: 58,
   },
   {
-    week: "3",
+    week: "15.09.19-21.09.19",
     type: "Clicks",
     value: 18,
   },
   {
-    week: "4",
+    week: "22.09.19-28.09.19",
     type: "Sign Ups",
     value: -50,
   },
   {
-    week: "4",
+    week: "22.09.19-28.09.19",
     type: "Page View",
     value: 18,
   },
   {
-    week: "4",
+    week: "22.09.19-28.09.19",
     type: "Clicks",
     value: -40,
   },
   {
-    week: "5",
+    week: "29.09.19-05.10.19",
     type: "Sign Ups",
     value: -20,
   },
   {
-    week: "5",
+    week: "29.09.19-05.10.19",
     type: "Page View",
     value: -40,
   },
   {
-    week: "5",
+    week: "29.09.19-05.10.19",
     type: "Clicks",
     value: -30,
   },
   {
-    week: "6",
+    week: "06.10.19-12.10.19",
     type: "Sign Ups",
     value: 40,
   },
   {
-    week: "6",
+    week: "06.10.19-12.10.19",
     type: "Page View",
     value: -30,
   },
   {
-    week: "6",
+    week: "06.10.19-12.10.19",
     type: "Clicks",
     value: 30,
   },
   {
-    week: "7",
+    week: "13.10.19-19.10.19",
     type: "Sign Ups",
     value: 50,
   },
   {
-    week: "7",
+    week: "13.10.19-19.10.19",
     type: "Page View",
     value: 20,
   },
   {
-    week: "7",
+    week: "13.10.19-19.10.19",
     type: "Clicks",
     value: 48,
   },
 ];
 
 const config = {
+  data,
   height: 300,
   title: {
     visible: true,
@@ -119,7 +120,6 @@ const config = {
   padding: "auto",
   smooth: "true",
   forceFit: true,
-  data,
   xField: "week",
   yField: "value",
   xAxis: { visible: false },

@@ -16,19 +16,17 @@ const data = [
   },
 ];
 const config = {
+  data,
   forceFit: true,
   height: 300,
-
   title: {
     visible: true,
     text: "Active Medias",
     style: { fontSize: 18, fill: "#d8d8d8" },
   },
-
   radius: 0.8,
   innerRadius: 0.8,
   padding: "auto",
-  data,
   color: ["#1baaa9", "#f0c674", "#267cb4"],
   angleField: "value",
   colorField: "type",
