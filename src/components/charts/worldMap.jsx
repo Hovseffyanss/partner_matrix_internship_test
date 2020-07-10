@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { Component } from "react";
 import { Chart } from "react-google-charts";
 
 const data = [
@@ -7,7 +7,7 @@ const data = [
   ["United States", 200],
   ["United Kingdom", 22],
 ];
-class World extends React.Component {
+class WorldMap extends Component {
   render() {
     return (
       <div
@@ -45,4 +45,4 @@ class World extends React.Component {
   }
 }
 
-export default World;
+export default WorldMap;

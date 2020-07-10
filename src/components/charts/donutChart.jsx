@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Donut } from "@ant-design/charts";
 
 const data = [
@@ -18,7 +18,6 @@ const data = [
 const config = {
   forceFit: true,
   height: 300,
-  // width: 300,
 
   title: {
     visible: true,

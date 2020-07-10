@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import World from "./map";
+import WorldMap from "./worldMap";
 
-class MapContainer extends Component {
+class WorldMapContainer extends Component {
   render() {
     return (
       <div
@@ -20,10 +20,10 @@ class MapContainer extends Component {
         >
           Geographic Data
         </p>
-        <World />
+        <WorldMap />
       </div>
     );
   }
 }
 
-export default MapContainer;
+export default WorldMapContainer;

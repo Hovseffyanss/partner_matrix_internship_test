@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.less";
-import Demo from "./components/Layout";
+import PageLayout from "./components/pageLayout";
 
 function App() {
   return (
     <>
-      <Demo />
+      <PageLayout />
     </>
   );
 }

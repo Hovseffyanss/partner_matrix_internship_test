@@ -3,30 +3,17 @@ import { PageHeader, Button, Avatar, Divider, Dropdown, Menu } from "antd";
 
 const menu = (
   <Menu>
-    <Menu.Item>
-      <a target="_blank" rel="noopener noreferrer">
-        Armenian
-      </a>
-    </Menu.Item>
-    <Menu.Item>
-      <a target="_blank" rel="noopener noreferrer">
-        Russian{" "}
-      </a>
-    </Menu.Item>
-    <Menu.Item>
-      <a target="_blank" rel="noopener noreferrer">
-        English
-      </a>
-    </Menu.Item>
+    <Menu.Item>Armenian</Menu.Item>
+    <Menu.Item>Russian</Menu.Item>
+    <Menu.Item>English</Menu.Item>
   </Menu>
 );
 
-function NavBar() {
+function Header() {
   return (
     <>
       <PageHeader
         className="site-page-header"
-        // subTitle="Dashboard"
         style={{ backgroundColor: "white" }}
         extra={[
           <Divider type="vertical" />,
@@ -51,4 +38,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default Header;
